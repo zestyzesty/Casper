@@ -223,7 +223,7 @@ body {
 }
 
 ::selection {
-    background: #D6EDFF;
+    background: #e6efaf;
 }
 
 h1, h2, h3,
@@ -937,7 +937,7 @@ body.nav-opened .nav {
 
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
-    position: relative;
+    /*position: relative;*/
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
@@ -969,11 +969,12 @@ body:not(.post-template) .post-title {
 
 .post-title a {
     text-decoration: none;
+    color: #2E2E2E;
 }
 
 .post-excerpt p {
     margin: 0;
-    font-size: 0.9em;
+    /*font-size: 0.9em;*/
     line-height: 1.7em;
 }
 
@@ -990,6 +991,10 @@ body:not(.post-template) .post-title {
     color: #9EABB3;
 }
 
+footer.post-meta {
+  margin: 1.4rem 0 0 0;
+}
+
 .author-thumb {
     width: 24px;
     height: 24px;
@@ -999,7 +1004,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-meta a {
-    color: #9EABB3;
+    color: #788090;
     text-decoration: none;
 }
 
