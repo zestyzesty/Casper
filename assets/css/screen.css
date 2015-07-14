@@ -567,7 +567,7 @@ body.nav-opened .nav-cover {
     z-index: 5;
     width: 240px;
     opacity: 0;
-    background: #111;
+    background: #2E2E2E;
     margin-bottom: 0;
     text-align: left;
     overflow-y: auto;
@@ -718,7 +718,7 @@ body.nav-opened .nav {
     right: 30px;
     height: 38px;
     padding: 0 20px;
-    color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
+    color: #2E2E2E !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
     font-family: "freigsanprolig", sans-serif;
@@ -859,8 +859,8 @@ body.nav-opened .nav {
 /* When the navigation is opened */
 .nav-opened .menu-button {
     padding: 0 12px;
-    background: #111;
-    border-color: #111;
+    background: #2E2E2E;
+    border-color: #2E2E2E;
     color: #fff;
     -webkit-transform: translate3D(94px, 0, 0);
         -ms-transform: translate3D(94px, 0, 0);
@@ -1177,7 +1177,7 @@ footer.post-meta {
     color: #9EABB3;
 }
 .author-meta a:hover {
-    color: #111;
+    color: #2E2E2E;
 }
 
 /* Create some space to the right for the share links */
